@@ -1,0 +1,23 @@
+//Styles the navigation
+nav.main-menu {
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    padding: 1%;
+    ul{
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        li {
+            display: inline;
+            a{
+                padding: 3%;
+                text-decoration: none;
+            }
+        }
+    }
+}

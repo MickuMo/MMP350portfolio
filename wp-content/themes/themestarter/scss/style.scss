@@ -1,0 +1,34 @@
+
+@import "vendor/normalize";
+
+//This imports the Foundation scss
+@import "foundation";
+
+//To make changes to the default color, typography and grid settings for foundation modify the files in foundation/settings
+
+@import "partials/variables";
+
+@import "header"; //main header styling
+@import "home"; //style for home page
+@import "nav"; //navigation styling
+@import "footer"; // styling for footer
+
+// Style for all
+.menu > li > a{
+    display: inline;
+}
+
+a{
+    color: #eee;
+    
+}
+
+a:hover {
+    color: lighten($color, 50%);
+}
+
+.page{
+    a{
+        color: #000;
+    }
+}

@@ -1,0 +1,25 @@
+//Styling of main header for the site
+
+.main-header{
+    background: $color;
+    background: linear-gradient(to right, rgba(95, 56, 134, 0.5), #5f3886 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c55fd9', endColorstr='#5f3886', GradientType=1 );
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    
+    
+}
+
+.intro{
+    text-align: center;
+    padding:5em;
+    h3{
+        font-family: $header-font;
+        color:  #e4c4ff;
+    }
+    h1{
+        font-family: $header-font;
+        color: #e4c4ff;
+    }
+    
+}
